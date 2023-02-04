@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+    #stop {
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #000000;
+      background-color: #cd3455;
+      cursor: pointer;
+      color: #fff;
+      font-size:larger;
+      font-weight: 700;
+    }
+    #start {
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #325C74;
+      background-color: #82CFFD;
+      cursor: pointer;
+      color: #325C74;
+      font-size:large;
+      font-weight: 800;
+    }
+
+
+    .text {
+      border: 2px solid #ccc;
+      margin: 0.5rem 0;
+      padding: 10px;
+      border-radius: 15px;
+    }
+    #movies {
+      margin: 0.5rem 0;
+    }
+    .title{
+      font-weight: bold;
+    }
+    .overview {
+      font-style: italic;
+
+    }
+    .popularity{
+        font-size: 0.8rem;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Big Data Fetch</title>
+</head>
+<body>
+    <button id="start">Fetch Lots of Data</button>
+    <button id="stop">Stop Fetching Lots of Data</button>
+  <h2>Movies</h2>
+    <div id="movies"></div>
+  <script src="./index.js" type="module"></script>
+</body>
+</html>
