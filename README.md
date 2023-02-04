@@ -5,7 +5,9 @@
 There are several ways to fetch data with large amount of GBs from a server.
 
 1- Pagination: spliting the data into multiple pages and fetch each page separately in the browser.
+
 2- Lazy Loading: after getting in the end of the scrolling page, the browser makes new request to the server to get more data.
+
 3- Streaming: the server can send chunks of data on-demand as the browser requests more as needed.
 
 This solution refers to the 3rd option above: Streaming data in chunks from the node.js backend server to the browser frontend client.
@@ -13,6 +15,7 @@ This solution refers to the 3rd option above: Streaming data in chunks from the 
 Features:
 
 1- Allows user to start/re-start the streaming.
+
 2- Allows user to stop the streaming.
 
 How to run the project?
