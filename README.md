@@ -1,4 +1,4 @@
-# Web Streams Projecct
+# Web Streams Project
 
 ## This project shows how to stream a large amount of data (big files with GB) from a node.js server and rendering inside a browser without crashing.
 
